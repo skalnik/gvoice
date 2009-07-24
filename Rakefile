@@ -9,7 +9,7 @@ begin
     gem.email = "mike.skalnik@gmail.com"
     gem.homepage = "http://github.com/skalnik/gvoice"
     gem.authors = ["Mike Skalnik"]
-    gem.add_dependencies = ['mechanize', '>=0.9.3']
+    gem.add_dependency('mechanize', '>=0.9.3')
   end
   
 rescue LoadError
